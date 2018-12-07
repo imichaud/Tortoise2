@@ -29,6 +29,7 @@ html {
 .logo {
   display: flex;
   align-items: center;
+  flex-grow: 1;
 }
 
 .logo img {
@@ -54,4 +55,59 @@ html {
   padding-bottom: 1.5rem;
   position: relative;
   top: 10rem;
+  left: 30rem;
+  width: 35rem;
+}
+
+.container-see span {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.info {
+  margin-right: 2rem;
+}
+
+/** Services Section **/
+
+.container-services {
+  display: flex;
+  max-width: 960px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.service {
+  margin-top: 3rem;
+  height: 8rem;
+  width: 3.5rem;
+}
+
+.description {
+  font-size: 1rem;
+  font-family: helvetica;
+}
+
+/** About Section **/
+
+.container-about {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-family: helvetica;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.title-description {
+  width: 35%;
+
 }
