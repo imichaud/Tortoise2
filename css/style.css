@@ -100,7 +100,7 @@ html {
 .container-about {
   display: flex;
   width: 960px;
-  
+
 }
 
 .title {
@@ -131,7 +131,6 @@ html {
   font-family: helvetica;
   color: black;
   margin: 0 auto;
-  display: flex;
   align-items: center;
 }
 
