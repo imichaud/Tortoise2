@@ -22,7 +22,7 @@ html {
   color: white;
   position: relative;
   top: 1rem;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -74,8 +74,8 @@ html {
 
 .container-services {
   display: flex;
-  max-width: 960px;
-  justify-content: space-around;
+  width: 960px;
+  justify-content: space-between;
   margin: 0 auto;
   padding-bottom: 3rem;
 }
@@ -99,6 +99,7 @@ html {
 
 .container-about {
   display: flex;
+  width: 960px;
 }
 
 .title {
@@ -113,4 +114,26 @@ html {
 
 .title-description {
   width: 35%;
+}
+
+/** Footer Section **/
+
+.footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.banner-footer {
+  background-color: azure;
+  width: 960px;
+  display: flex;
+  font-family: helvetica;
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer span {
+  margin: 0 auto;
 }
