@@ -99,13 +99,15 @@ html {
 
 .container-about {
   display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
   width: 960px;
 }
 
 .about-us {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 35%;
 }
 
 .title {
@@ -119,7 +121,6 @@ html {
 }
 
 .title-description {
-  width: 35%;
   padding-top: 1rem;
 }
 
